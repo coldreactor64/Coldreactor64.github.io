@@ -5,7 +5,7 @@ date:   2018-12-29
 ---
 # ESP8266 SPIFFS Uploading using Arduino IDE
 
-In this tutorial, we will discuss the SPIFFS filesystem and how to upload it using the Arduino IDE and using ESPTool
+In this tutorial, we will discuss the SPIFFS filesystem and how to upload it using the Arduino IDE
 
 ## ESP8266 SPIFFS Filesystem overview
 
