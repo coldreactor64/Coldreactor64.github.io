@@ -17,9 +17,9 @@ title: Swiss Jekyll Theme
 description: A bold typographic theme inspired by Swiss design.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: jekyll # the GitHub repo name for your project
+github_repo: coldreactor64/coldreactor64.github.io # the GitHub repo name for your project
 github_username: jekyll
-
+repository: coldreactor64/coldreactor64.github.io
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
 social_link: twitter
@@ -31,3 +31,6 @@ theme_color: black
 
 # Build settings
 markdown: kramdown
+
+
+remote_theme: broccolini/swiss
