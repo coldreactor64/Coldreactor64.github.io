@@ -3,7 +3,7 @@ layout: post
 title:  "ESP8266 SPIFFS Uploading"
 date:   2018-12-29
 ---
-# ESP8266 SPIFFS Uploading
+# ESP8266 SPIFFS Uploading using Arduino IDE
 
 In this tutorial, we will discuss the SPIFFS filesystem and how to upload it using the Arduino IDE and using ESPTool
 
@@ -39,4 +39,34 @@ The tool is located [here](https://github.com/esp8266/arduino-esp8266fs-plugin/r
 
 You should now see the ESP8266 Sketch Data Upload
 
-  ![SPIFFS Tool](/assets/images/2018/12/29/ESP8266SPIFFS/ArduinoIDESPIFFSUpload.PNG)
+![SPIFFS Tool](/assets/images/2018/12/29/ESP8266SPIFFS/ArduinoIDESPIFFSUpload.PNG)
+
+This now allows you to upload files from a folder in your sketch folder called data
+
+It would look like ``<sketch directory>/data``
+
+Any files that you put up there will be uploaded to the ESP8266. 
+although please be aware of the size limits of the files.
+
+You may want to compress your files using gzip to make storage more manageable.
+
+Another caveat is you much set the SPIFFS Size in your board.
+
+To do this simply open up the ``tools`` tab in the Arduino IDE
+
+
+
+![Configuration](/assets/images/2018/12/29/ESP8266SPIFFS/Configuration.PNG) 
+
+
+The settings that matter are: 
+  * Flash Size: 4M(3M SPIFFS)
+  * Upload Speed: 921600
+
+Flash size sets how much SPIFFS space you have available on your board.
+Upload speed will dramatically effect the speed of your upload.
+Before uploading be sure to check both of these values.
+
+## Conclusion
+
+SPIFFS is a great feature to use. In the next tutorial I will cover uploading SPIFFS using mkSPIFFS and ESPTool.
