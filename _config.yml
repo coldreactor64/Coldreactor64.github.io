@@ -13,21 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Swiss Jekyll Theme
-description: A bold typographic theme inspired by Swiss design.
+title: Jeremy's Dev Blog
+description: My blog focusing on embedded devices
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: coldreactor64/coldreactor64.github.io # the GitHub repo name for your project
-github_username: jekyll
+github_repo:  # the GitHub repo name for your project
+github_username: coldreactor64
 repository: coldreactor64/coldreactor64.github.io
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
 social_link: twitter
-social_username: jekyllrb
+social_username: Coldreactor64
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
-theme_color: black
+theme_color: orange
 
 # Build settings
 markdown: kramdown

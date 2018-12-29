@@ -6,6 +6,8 @@ date:   2016-09-04
 
 ### Markdown test document
 
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be have dotted underlines and solid underlines on hover.
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
@@ -133,7 +135,7 @@ var foo = "bar";
 ````
 
 Code can also use syntax highlighting.
-````Javascript
+````C
 var foo = "bar";
 ````
 
