@@ -34,3 +34,5 @@ markdown: kramdown
 
 
 remote_theme: broccolini/swiss
+plugins:
+  - jekyll-seo-tag
