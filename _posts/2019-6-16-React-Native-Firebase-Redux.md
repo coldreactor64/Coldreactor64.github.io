@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rocket Watcher Part 1"
-date:   2018-12-29
+date:   2019-6-16
 ---
 
 # Rocket Watcher: Part 1 - Setting up React Native Firebase with Redux
