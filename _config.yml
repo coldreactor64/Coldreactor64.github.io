@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jeremy's Dev Blog
-description: My blog focusing on embedded devices
-baseurl: "https://coldreactor.me" # the subpath of your site, e.g. /blog
+description: Blog focused on frontend development and embedded devices
+baseurl: "https://coldreactor.com" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo:  # the GitHub repo name for your project
 github_username: coldreactor64
