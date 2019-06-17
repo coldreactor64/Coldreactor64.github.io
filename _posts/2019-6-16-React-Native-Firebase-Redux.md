@@ -38,14 +38,17 @@ along with [React-Redux-Firebase](https://github.com/prescottprue/react-redux-fi
 
 ### Create a Firebase Project
 
-1. Go to https://firebase.google.com/ and create a project the name of your app, in this case Rocket Watcher. ![CreateProject](/assets/images/2019/6/16/RocketWatcherPart1/createproject.PNG)
+1. Go to https://firebase.google.com/ and create a project the name of your app, in this case Rocket Watcher. 
+![CreateProject](/assets/images/2019/6/16/RocketWatcherPart1/createproject.PNG)
 
 2. Click the button to add Firebase to iOS App
    
-3. Add a firebase iOS app using the ``com.companyName.projectName`` that was given above, in my case ``com.coldreactor.rocketwatcher`` by clicking on the button that says iOS [iOS Only] ![CreateProject](/assets/images/2019/6/16/RocketWatcherPart1/addiOS.PNG)
+3. Add a firebase iOS app using the ``com.companyName.projectName`` that was given above, in my case ``com.coldreactor.rocketwatcher`` by clicking on the button that says iOS [iOS Only]
+![CreateProject](/assets/images/2019/6/16/RocketWatcherPart1/addiOS.PNG)
 
 
-4. Download the GoogleService-Info.plist and add it to the iOS directory of the starter app you downloaded and setup [iOS Only] ![CreateProject](/assets/images/2019/6/16/RocketWatcherPart1/downloadplist.PNG)
+4. Download the GoogleService-Info.plist and add it to the iOS directory of the starter app you downloaded and setup [iOS Only] 
+![CreateProject](/assets/images/2019/6/16/RocketWatcherPart1/downloadplist.PNG)
 
 5. Repeat the steps above  but instead of iOS choose android, and instead of the iOS folder place the downloaded file into /android/app/ folder of the project
 
