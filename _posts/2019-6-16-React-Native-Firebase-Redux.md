@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rocket Watcher Part 1"
+title:  "Rocket Watcher Part 1: RNFirebase"
 date:   2019-6-16
 ---
 
