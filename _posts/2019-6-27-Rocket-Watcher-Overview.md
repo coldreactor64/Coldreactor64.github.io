@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rocket Watcher Part 1: RNFirebase"
+title:  "Rocket Watcher Overview"
 date:   2019-6-16
 ---
 # Rocket Watcher: Design and Overview
